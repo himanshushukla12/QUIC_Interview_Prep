@@ -4,7 +4,7 @@
 
 QUIC (Quick UDP Internet Connections) is a new transport protocol for the internet, developed by google. It solves a number of transport-layer and application-layer problem experienced by modern web applications, while requiring a little change or no change form application writers.
 
-![Untitled](QUIC%20protocol%20Interview%20Prep%20d5c16eb24fa94650b9be6039b7f4893b/Untitled.png)
+![Untitled](https://raw.githubusercontent.com/himanshushukla12/QUIC_Interview_Prep/main/Untitled.png)
 
 ### Key features:
 
@@ -12,7 +12,7 @@ Key features of QUIC over existing TCP+TLS+HTTP2 include
 
 - Dramatically reduced connection establishment time
 
-![Untitled](QUIC%20protocol%20Interview%20Prep%20d5c16eb24fa94650b9be6039b7f4893b/Untitled%201.png)
+![Untitled](https://raw.githubusercontent.com/himanshushukla12/QUIC_Interview_Prep/main/Untitled%201.png)
 
 - Improved congestion control
 - Multiplexing without head of line blocking
@@ -53,7 +53,7 @@ A 33.6 MB testfile `index.html` will generate in `/var/www/html/` and we wil
 
 For practical, we will use simulate enviroment in **local**. We use *tc netem* and *tbf* to config local loopback interface.
 
-![Untitled](QUIC%20protocol%20Interview%20Prep%20d5c16eb24fa94650b9be6039b7f4893b/Untitled%202.png)
+![Untitled](https://raw.githubusercontent.com/himanshushukla12/QUIC_Interview_Prep/main/Untitled%202.png)
 
 netem is network emulation, tbf is token bucket filter TBF is a network traffic shaping mechanism used to control the rate at which packets are transmitted on a network interface.
 

@@ -264,11 +264,11 @@ This document provides an analysis of the terminal commands used in the 'run_ben
 
 As you can see, CUBIC tends to have a more aggressive growth rate when network conditions are favorable, while AIMD maintains a more stable growth rate. However, both algorithms are effective at maintaining network stability and avoiding congestion collapse.
 
-![https://i.imgur.com/6xjTb0n.png](https://i.imgur.com/6xjTb0n.png)
+![CUBIC](https://raw.githubusercontent.com/himanshushukla12/QUIC_Interview_Prep/main/TCP-CUBIC-Congestion-Window-Growth-Behavior.png)
 
 ### CUBIC Congestion Control
 
-![https://i.imgur.com/3VzFZsL.png](https://i.imgur.com/3VzFZsL.png)
+![AIMD](https://raw.githubusercontent.com/himanshushukla12/QUIC_Interview_Prep/main/AIMDcongestionavoidance.jpg)
 
 ### AIMD Congestion Control
 
